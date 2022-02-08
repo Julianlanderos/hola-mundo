@@ -10,12 +10,12 @@ func main() {
 	// y se imprime "es un animal por ejemplo"
 	// o mediante comparativos && o ||
 	case "🐱":
-		fmt.Println("Es un pinche gato")
+		fmt.Println("Es un gato")
 
 	case "🐶":
-		fmt.Println("Es un pinche perro")
+		fmt.Println("Es un perro")
 
 	default:
-		fmt.Println("No tengo ni puta idea :v")
+		fmt.Println("No es ni gato ni perro")
 	}
 }
